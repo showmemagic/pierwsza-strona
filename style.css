@@ -1,0 +1,131 @@
+.main {
+	width:800px;
+	margin:auto;
+	background-color:#5F9EA0;
+}
+
+h1 {
+	color:#466289;
+	font-family:Helvetica, sans-serif;
+	margin-left:150px;
+	margin-top:80px;
+}
+
+h2,h3 {
+	color:#DBE8F9;
+	font-family:Helvetica, sans-serif;
+}
+
+h4 {
+	color:#466289;
+	font-family:Helvetica, sans-serif
+}
+
+p {
+	color:#DBE8F9;
+	font-size:16px;
+	line-height:20px;
+	font-family:Helvetica, sans-serif;
+	text-align:justify;
+}
+
+hr {
+	color:#466289;
+}
+
+
+/*Nawigacja*/
+
+.navigation {
+	padding:0px;
+	text-align:center;
+}
+
+.navigation ul li{
+	list-style-type:none;
+	border-right:1px solid #DBE8F9;
+	position:relative;
+	display:inline;
+
+}
+
+.navigation ul li a {
+	font-size:16px;
+	color:#FFB739;
+	font-family:Arial, sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px 60px;
+}
+
+.navigation ul li a:hover{
+	color:#FA6121;
+}
+
+/*Portfolio*/
+
+.portfolio {
+	overflow:auto;
+	margin:20px 0px 20px 0px;
+}
+
+/*Lista w CV*/
+
+.cv {
+	color:#DBE8F9;
+	font-size:16px;
+	line-height:20px;
+	font-family:Helvetica, sans-serif;
+}
+
+/*Obrazki*/
+
+.right {
+	float:right;
+	border-radius:50px;
+	border:3px solid #DBE8F9;
+	margin:20px;
+}
+
+.left {
+	float:left;
+	border-radius:50px;
+	border:3px solid #DBE8F9;
+	margin:20px;
+}
+
+/*Formularz*/
+
+form {
+	display:block;
+	margin-top:40px;
+	margin-left:150px;
+}
+
+form input {
+	border-radius:10px;
+	border:1px solid #DBE8F9;
+	width:600px;
+	font-family:Arial, sans-serif;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+form textarea {
+	border-radius:10px;
+	border:1px solid #DBE8F9;
+	width:600px;
+	font-family:Arial, sans-serif;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+form input[type="submit"] {
+	width:600px;
+	cursor:pointer;
+	color:#FFB739;
+	background-color:#466289;
+	font-family:Arial, sans-serif;
+	border: 1px solid #466289;
+}
+
